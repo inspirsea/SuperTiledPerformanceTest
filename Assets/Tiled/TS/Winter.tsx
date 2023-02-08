@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tileset version="1.8" tiledversion="1.8.4" name="Winter" tilewidth="32" tileheight="32" tilecount="184" columns="8">
+<tileset version="1.9" tiledversion="1.9.2" name="Winter" tilewidth="32" tileheight="32" tilecount="184" columns="8">
  <image source="../Tiles/Winter.png" width="256" height="736"/>
  <tile id="2" probability="50"/>
  <tile id="3">
   <objectgroup draworder="index" id="2">
-   <object id="1" type="Ice" x="0" y="0" width="32" height="32">
+   <object id="1" class="Ice" x="0" y="0" width="32" height="32">
     <properties>
      <property name="unity:IsTrigger" type="bool" value="true"/>
     </properties>
@@ -13,81 +13,81 @@
  </tile>
  <tile id="4">
   <objectgroup draworder="index" id="2">
-   <object id="1" type="Water" x="0" y="0" width="32" height="32"/>
+   <object id="1" class="Water" x="0" y="0" width="32" height="32"/>
   </objectgroup>
  </tile>
  <tile id="5">
   <objectgroup draworder="index" id="2">
-   <object id="2" type="Ice" x="17.75" y="-2.625" width="15.875" height="36.25"/>
+   <object id="2" class="Ice" x="18" y="0" width="14" height="32"/>
   </objectgroup>
  </tile>
  <tile id="6">
   <objectgroup draworder="index" id="2">
-   <object id="1" type="Ice" x="14.625" y="34.25">
-    <polygon points="0,0 0.125,-11.125 9.625,-20.125 19,-20.125 19.125,-0.25"/>
+   <object id="1" class="Ice" x="15" y="32">
+    <polygon points="0,0 0,-9.47368 8.05263,-18 17,-18 17,0"/>
    </object>
   </objectgroup>
  </tile>
  <tile id="7">
   <objectgroup draworder="index" id="2">
-   <object id="1" type="Ice" x="-1.375" y="15.625" width="34.875" height="17.625"/>
+   <object id="1" class="Ice" x="-1" y="16" width="34" height="17"/>
   </objectgroup>
  </tile>
  <tile id="8">
   <objectgroup draworder="index" id="2">
-   <object id="1" type="Ice" x="-1.75" y="15">
-    <polygon points="0,0 9.125,0.125 17.625,8.625 17.625,18.125 0.625,17.875"/>
+   <object id="1" class="Ice" x="-0.705882" y="15">
+    <polygon points="0.705882,0 9.17647,0 16.7059,8.5 16.7059,17 0.705882,17"/>
    </object>
   </objectgroup>
  </tile>
  <tile id="9">
   <objectgroup draworder="index" id="2">
-   <object id="1" type="Ice" x="-1.625" y="-2.5" width="16.5" height="36.75"/>
+   <object id="1" class="Ice" x="0" y="0" width="15" height="32"/>
   </objectgroup>
  </tile>
  <tile id="10">
   <objectgroup draworder="index" id="2">
-   <object id="1" type="Ice" x="15.75" y="-3.375">
-    <polygon points="0,0 0.125,11.875 9.75,20.5 18.25,20.375 18,0.375"/>
+   <object id="1" class="Ice" x="15.7778" y="-0.3">
+    <polygon points="0.222222,0.3 0.222222,9.9 8.22222,16.3 16.2222,16.3 16.2222,0.3"/>
    </object>
   </objectgroup>
  </tile>
  <tile id="11">
   <objectgroup draworder="index" id="2">
-   <object id="1" type="Ice" x="-0.875" y="-2.625" width="34.375" height="18.5"/>
+   <object id="1" class="Ice" x="0" y="0" width="32" height="15.875"/>
   </objectgroup>
  </tile>
  <tile id="12">
   <objectgroup draworder="index" id="2">
-   <object id="1" type="Ice" x="-1.625" y="16">
-    <polygon points="0,0 9.75,-0.125 18,-8.375 17.75,-18.625 -0.25,-18.375"/>
+   <object id="1" class="Ice" x="0.335526" y="16">
+    <polygon points="-0.335526,0 8.61184,0 16.6645,-7.11111 16.6645,-16 -0.335526,-16"/>
    </object>
   </objectgroup>
  </tile>
  <tile id="13">
   <objectgroup draworder="index" id="2">
-   <object id="1" type="Ice" x="14.25" y="34.25">
-    <polygon points="0,0 -0.125,-12.75 8.875,-21.75 19.5,-21.75 19.625,-37.125 -16.375,-37.125 -16.25,-0.5"/>
+   <object id="1" class="Ice" x="15.3472" y="32.2162">
+    <polygon points="-0.236111,-0.216216 -0.236111,-10.5946 8.26389,-18.3784 18.6528,-18.3784 18.6528,-32.2162 -15.3472,-32.2162 -15.3472,-0.216216"/>
    </object>
   </objectgroup>
  </tile>
  <tile id="14">
   <objectgroup draworder="index" id="2">
-   <object id="1" type="Ice" x="-2.5" y="14">
-    <polygon points="0,0 10.5,0 19.625,8.75 19.5,20 36,20 35.75,-16.25 -0.625,-15.875"/>
+   <object id="1" class="Ice" x="-0.457143" y="14.2222">
+    <polygon points="0.457143,0 9.6,0 17.8286,8 17.8286,17.7778 32.4571,17.7778 32.4571,-14.2222 0.457143,-14.2222"/>
    </object>
   </objectgroup>
  </tile>
  <tile id="15">
   <objectgroup draworder="index" id="2">
-   <object id="1" type="Ice" x="14.625" y="-2.625">
-    <polygon points="0,0 0,10.5 9.5,20.25 19.5,20.625 19.625,36.875 -16.625,36.75 -16.625,-0.25"/>
+   <object id="1" class="Ice" x="14.7778" y="-0.540541">
+    <polygon points="0.333333,0.540541 0.333333,9.18919 8.33333,17.8378 17.2222,17.8378 17.2222,32.5405 -14.7778,32.5405 -14.7778,0.540541"/>
    </object>
   </objectgroup>
  </tile>
  <tile id="16">
   <objectgroup draworder="index" id="2">
-   <object id="1" type="Ice" x="18.125" y="-2.5">
+   <object id="1" class="Ice" x="18.125" y="-2.5">
     <polygon points="0,0 0.125,14.5 -8.5,21.375 -19.75,21.125 -19.875,36.375 15.625,36.375 15.5,0.375"/>
    </object>
   </objectgroup>
@@ -124,10 +124,10 @@
  </tile>
  <tile id="20">
   <objectgroup draworder="index" id="2">
-   <object id="1" type="Water" x="17.25" y="-2.375">
+   <object id="1" class="Water" x="17.25" y="-2.375">
     <polygon points="0,0 0.5,36.125 16.875,36 16.125,-0.5"/>
    </object>
-   <object id="2" type="Ice" x="-1.375" y="-2.125">
+   <object id="2" class="Ice" x="-1.375" y="-2.125">
     <polygon points="0,0 0,35.875 17.625,35.5 17,-0.625"/>
    </object>
   </objectgroup>
@@ -221,8 +221,8 @@
  </tile>
  <tile id="30">
   <objectgroup draworder="index" id="2">
-   <object id="1" x="-2.72727" y="10.9091">
-    <polygon points="0,0 3.63636,-0.181818 15.4545,5.09091 20.9091,12.7273 19.6364,23.6364 0.363636,23.6364"/>
+   <object id="1" x="0" y="10.8897">
+    <polygon points="0,0.110331 3,0.110331 18,12.1103 18,21.1103 0,21.1103"/>
    </object>
   </objectgroup>
  </tile>
@@ -330,32 +330,32 @@
  <tile id="92" probability="0.005"/>
  <tile id="93" probability="0.005">
   <objectgroup draworder="index" id="2">
-   <object id="1" type="Water" x="0" y="0" width="32" height="32"/>
+   <object id="1" class="Water" x="0" y="0" width="32" height="32"/>
   </objectgroup>
  </tile>
  <tile id="94" probability="0.005">
   <objectgroup draworder="index" id="2">
-   <object id="1" type="Water" x="0" y="0" width="32" height="32"/>
+   <object id="1" class="Water" x="0" y="0" width="32" height="32"/>
   </objectgroup>
  </tile>
  <tile id="95" probability="0.005">
   <objectgroup draworder="index" id="2">
-   <object id="1" type="Water" x="0" y="0" width="32" height="32"/>
+   <object id="1" class="Water" x="0" y="0" width="32" height="32"/>
   </objectgroup>
  </tile>
  <tile id="96" probability="0.005">
   <objectgroup draworder="index" id="2">
-   <object id="1" type="Ice" x="0" y="0" width="32" height="32"/>
+   <object id="1" class="Ice" x="0" y="0" width="32" height="32"/>
   </objectgroup>
  </tile>
  <tile id="97" probability="0.005">
   <objectgroup draworder="index" id="2">
-   <object id="1" type="Ice" x="0" y="0" width="32" height="32"/>
+   <object id="1" class="Ice" x="0" y="0" width="32" height="32"/>
   </objectgroup>
  </tile>
  <tile id="98" probability="0.005">
   <objectgroup draworder="index" id="2">
-   <object id="1" type="Ice" x="0" y="0" width="32" height="32"/>
+   <object id="1" class="Ice" x="0" y="0" width="32" height="32"/>
   </objectgroup>
  </tile>
  <tile id="99" probability="0">
@@ -462,88 +462,88 @@
   </objectgroup>
  </tile>
  <tile id="114" probability="0"/>
- <tile id="115" type="Road">
+ <tile id="115" class="Road">
   <objectgroup draworder="index" id="2">
-   <object id="1" type="Road" x="0" y="0" width="32" height="32"/>
+   <object id="1" class="Road" x="0" y="0" width="32" height="32"/>
   </objectgroup>
  </tile>
- <tile id="116" type="Road" probability="0">
+ <tile id="116" class="Road" probability="0">
   <objectgroup draworder="index" id="2">
-   <object id="1" type="Road" x="0" y="0" width="32" height="32"/>
+   <object id="1" class="Road" x="0" y="0" width="32" height="32"/>
    <object id="2" x="-0.125" y="10.625">
     <polygon points="0,0 10.25,-10.875 31.75,10.125 21.75,21.125"/>
    </object>
   </objectgroup>
  </tile>
- <tile id="117" type="Road" probability="0">
+ <tile id="117" class="Road" probability="0">
   <objectgroup draworder="index" id="2">
-   <object id="1" type="Road" x="0" y="0" width="32" height="32"/>
+   <object id="1" class="Road" x="0" y="0" width="32" height="32"/>
    <object id="2" x="9.5" y="1.125">
     <polygon points="0,0 -0.375,29.375 14,29.375 13.875,0.25"/>
    </object>
   </objectgroup>
  </tile>
- <tile id="118" type="Road" probability="0">
+ <tile id="118" class="Road" probability="0">
   <objectgroup draworder="index" id="2">
-   <object id="1" type="Road" x="0" y="0" width="32" height="32"/>
+   <object id="1" class="Road" x="0" y="0" width="32" height="32"/>
    <object id="2" x="1.375" y="9.625">
     <polygon points="0,0 29.125,-0.5 29.125,13 -0.125,12.75"/>
    </object>
   </objectgroup>
  </tile>
- <tile id="119" type="Road" probability="0.01">
+ <tile id="119" class="Road" probability="0.01">
   <objectgroup draworder="index" id="2">
-   <object id="1" type="Road" x="0" y="0" width="32" height="32"/>
+   <object id="1" class="Road" x="0" y="0" width="32" height="32"/>
   </objectgroup>
  </tile>
- <tile id="120" type="Road" probability="0.01">
+ <tile id="120" class="Road" probability="0.01">
   <objectgroup draworder="index" id="2">
-   <object id="1" type="Road" x="0" y="0" width="32" height="32"/>
+   <object id="1" class="Road" x="0" y="0" width="32" height="32"/>
   </objectgroup>
  </tile>
  <tile id="121" probability="0">
   <objectgroup draworder="index" id="2">
-   <object id="1" type="Road" x="0" y="0" width="32" height="32"/>
+   <object id="1" class="Road" x="0" y="0" width="32" height="32"/>
   </objectgroup>
  </tile>
  <tile id="122" probability="0">
   <objectgroup draworder="index" id="2">
-   <object id="1" type="Road" x="0" y="0" width="32" height="32"/>
+   <object id="1" class="Road" x="0" y="0" width="32" height="32"/>
   </objectgroup>
  </tile>
  <tile id="123" probability="0">
   <objectgroup draworder="index" id="2">
-   <object id="1" type="Road" x="0" y="0" width="32" height="32"/>
+   <object id="1" class="Road" x="0" y="0" width="32" height="32"/>
   </objectgroup>
  </tile>
  <tile id="124" probability="0">
   <objectgroup draworder="index" id="2">
-   <object id="1" type="Road" x="0" y="0" width="32" height="32"/>
+   <object id="1" class="Road" x="0" y="0" width="32" height="32"/>
   </objectgroup>
  </tile>
  <tile id="125" probability="0">
   <objectgroup draworder="index" id="2">
-   <object id="1" type="Road" x="0" y="0" width="32" height="32"/>
+   <object id="1" class="Road" x="0" y="0" width="32" height="32"/>
   </objectgroup>
  </tile>
  <tile id="126" probability="0">
   <objectgroup draworder="index" id="2">
-   <object id="1" type="Road" x="0" y="0" width="32" height="32"/>
+   <object id="1" class="Road" x="0" y="0" width="32" height="32"/>
   </objectgroup>
  </tile>
  <tile id="127" probability="0">
   <objectgroup draworder="index" id="2">
-   <object id="1" type="Road" x="0" y="0" width="32" height="32"/>
+   <object id="1" class="Road" x="0" y="0" width="32" height="32"/>
   </objectgroup>
  </tile>
  <tile id="128" probability="0">
   <objectgroup draworder="index" id="2">
-   <object id="1" type="Road" x="0" y="0" width="32" height="32"/>
+   <object id="1" class="Road" x="0" y="0" width="32" height="32"/>
   </objectgroup>
  </tile>
  <tile id="129" probability="0">
   <objectgroup draworder="index" id="2">
-   <object id="1" type="Road" x="0" y="0" width="32" height="32"/>
+   <object id="1" class="Road" x="0" y="0" width="32" height="32"/>
   </objectgroup>
  </tile>
  <tile id="130">
@@ -628,216 +628,216 @@
  </tile>
  <tile id="146">
   <objectgroup draworder="index" id="2">
-   <object id="1" type="Road" x="17.6364" y="33.8182">
+   <object id="1" class="Road" x="17.6364" y="33.8182">
     <polygon points="0,0 0.727273,-10.9091 6.90909,-19.0909 16,-18.7273 16.5455,-0.363636"/>
    </object>
   </objectgroup>
  </tile>
  <tile id="147">
   <objectgroup draworder="index" id="2">
-   <object id="1" type="Road" x="17.4545" y="-2.36364">
+   <object id="1" class="Road" x="17.4545" y="-2.36364">
     <polygon points="0,0 0.545455,35.6364 15.4545,35.4545 15.2727,0"/>
    </object>
   </objectgroup>
  </tile>
  <tile id="148">
   <objectgroup draworder="index" id="2">
-   <object id="1" type="Road" x="17.0909" y="-2.90909">
+   <object id="1" class="Road" x="17.0909" y="-2.90909">
     <polygon points="0,0 0.363636,11.4545 8.36364,20.1818 17.4545,18.9091 16.7273,-0.727273"/>
    </object>
   </objectgroup>
  </tile>
  <tile id="149">
   <objectgroup draworder="index" id="2">
-   <object id="1" type="Road" x="-2.36364" y="16">
+   <object id="1" class="Road" x="-2.36364" y="16">
     <polygon points="0,0 35.6364,-0.363636 35.4545,17.2727 1.27273,16.5455"/>
    </object>
   </objectgroup>
  </tile>
  <tile id="150">
   <objectgroup draworder="index" id="2">
-   <object id="1" type="Road" x="-1.63636" y="14.7273">
+   <object id="1" class="Road" x="-1.63636" y="14.7273">
     <polygon points="0,0 10.9091,0.363636 18.5455,7.27273 18.3636,18.5455 -0.181818,18"/>
    </object>
   </objectgroup>
  </tile>
  <tile id="151">
   <objectgroup draworder="index" id="2">
-   <object id="1" type="Road" x="15.8182" y="-2.54545">
+   <object id="1" class="Road" x="15.8182" y="-2.54545">
     <polygon points="0,0 0.545455,36 -17.2727,36.1818 -17.6364,0.727273"/>
    </object>
   </objectgroup>
  </tile>
  <tile id="152">
   <objectgroup draworder="index" id="2">
-   <object id="1" type="Road" x="-2" y="13.4545">
+   <object id="1" class="Road" x="-2" y="13.4545">
     <polygon points="0,0 35.6364,0.181818 34.7273,-15.6364 1.09091,-15.0909"/>
    </object>
   </objectgroup>
  </tile>
  <tile id="153">
   <objectgroup draworder="index" id="2">
-   <object id="1" type="Road" x="16.3636" y="-2.18182">
+   <object id="1" class="Road" x="16.3636" y="-2.18182">
     <polygon points="0,0 1.27273,10.5455 -5.63636,18.1818 -19.8182,18 -18.7273,-0.181818"/>
    </object>
   </objectgroup>
  </tile>
  <tile id="154">
   <objectgroup draworder="index" id="2">
-   <object id="1" type="Road" x="15.0909" y="34.1818">
+   <object id="1" class="Road" x="15.0909" y="34.1818">
     <polygon points="0,0 0.181818,-11.2727 9.27273,-19.4545 19.2727,-19.8182 18,-37.4545 -17.4545,-36 -16.7273,-1.27273"/>
    </object>
   </objectgroup>
  </tile>
  <tile id="155">
   <objectgroup draworder="index" id="2">
-   <object id="1" type="Road" x="-2.54545" y="13.4545">
+   <object id="1" class="Road" x="-2.54545" y="13.4545">
     <polygon points="0,0 11.6364,0.363636 20.1818,11.6364 20.3636,20.5455 35.6364,20.1818 35.2727,-14.5455 0.363636,-14.5455"/>
    </object>
   </objectgroup>
  </tile>
  <tile id="156">
   <objectgroup draworder="index" id="2">
-   <object id="1" type="Road" x="16" y="-2.18182">
+   <object id="1" class="Road" x="16" y="-2.18182">
     <polygon points="0,0 0.909091,13.2727 7.09091,18.7273 17.4545,18.5455 17.2727,34.7273 -17.2727,34.9091 -17.0909,1.09091"/>
    </object>
   </objectgroup>
  </tile>
  <tile id="157">
   <objectgroup draworder="index" id="2">
-   <object id="1" type="Road" x="-1.45455" y="16">
+   <object id="1" class="Road" x="-1.45455" y="16">
     <polygon points="0,0 11.8182,-0.181818 20.7273,-10 20.9091,-18 34.5455,-17.6364 34.3636,17.0909 0.545455,16.7273"/>
    </object>
   </objectgroup>
  </tile>
  <tile id="158">
   <objectgroup draworder="index" id="2">
-   <object id="1" type="Ice" x="0" y="0" width="32" height="32"/>
+   <object id="1" class="Ice" x="0" y="0" width="32" height="32"/>
   </objectgroup>
  </tile>
  <tile id="159">
   <objectgroup draworder="index" id="2">
-   <object id="1" type="Ice" x="0" y="0" width="32" height="32"/>
+   <object id="1" class="Ice" x="0" y="0" width="32" height="32"/>
   </objectgroup>
  </tile>
  <tile id="160">
   <objectgroup draworder="index" id="2">
-   <object id="1" type="Ice" x="0" y="0" width="32" height="32"/>
+   <object id="1" class="Ice" x="0" y="0" width="32" height="32"/>
   </objectgroup>
  </tile>
  <tile id="161">
   <objectgroup draworder="index" id="2">
-   <object id="1" type="Ice" x="0" y="0" width="32" height="32"/>
+   <object id="1" class="Ice" x="0" y="0" width="32" height="32"/>
   </objectgroup>
  </tile>
  <tile id="162">
   <objectgroup draworder="index" id="2">
-   <object id="1" type="Ice" x="0" y="0" width="32" height="32"/>
+   <object id="1" class="Ice" x="0" y="0" width="32" height="32"/>
   </objectgroup>
  </tile>
  <tile id="163">
   <objectgroup draworder="index" id="2">
-   <object id="1" type="Ice" x="0" y="0" width="32" height="32"/>
+   <object id="1" class="Ice" x="0" y="0" width="32" height="32"/>
   </objectgroup>
  </tile>
  <tile id="164">
   <objectgroup draworder="index" id="2">
-   <object id="1" type="Ice" x="0" y="0" width="32" height="32"/>
+   <object id="1" class="Ice" x="0" y="0" width="32" height="32"/>
   </objectgroup>
  </tile>
  <tile id="165">
   <objectgroup draworder="index" id="2">
-   <object id="1" type="Ice" x="0" y="0" width="32" height="32"/>
+   <object id="1" class="Ice" x="0" y="0" width="32" height="32"/>
   </objectgroup>
  </tile>
  <tile id="166">
   <objectgroup draworder="index" id="2">
-   <object id="1" type="Ice" x="0" y="0" width="32" height="32"/>
+   <object id="1" class="Ice" x="0" y="0" width="32" height="32"/>
   </objectgroup>
  </tile>
  <tile id="167">
   <objectgroup draworder="index" id="2">
-   <object id="1" type="Ice" x="0" y="0" width="32" height="32"/>
+   <object id="1" class="Ice" x="0" y="0" width="32" height="32"/>
   </objectgroup>
  </tile>
  <tile id="168">
   <objectgroup draworder="index" id="2">
-   <object id="1" type="Ice" x="0" y="0" width="32" height="32"/>
+   <object id="1" class="Ice" x="0" y="0" width="32" height="32"/>
   </objectgroup>
  </tile>
  <tile id="169">
   <objectgroup draworder="index" id="2">
-   <object id="1" type="Ice" x="0" y="0" width="32" height="32"/>
+   <object id="1" class="Ice" x="0" y="0" width="32" height="32"/>
   </objectgroup>
  </tile>
  <tile id="170">
   <objectgroup draworder="index" id="2">
-   <object id="1" type="Ice" x="0" y="0" width="32" height="32"/>
+   <object id="1" class="Ice" x="0" y="0" width="32" height="32"/>
   </objectgroup>
  </tile>
  <tile id="171">
   <objectgroup draworder="index" id="2">
-   <object id="1" type="Water" x="0" y="0" width="32" height="32"/>
+   <object id="1" class="Water" x="0" y="0" width="32" height="32"/>
   </objectgroup>
  </tile>
  <tile id="172">
   <objectgroup draworder="index" id="2">
-   <object id="1" type="Water" x="0" y="0" width="32" height="32"/>
+   <object id="1" class="Water" x="0" y="0" width="32" height="32"/>
   </objectgroup>
  </tile>
  <tile id="173">
   <objectgroup draworder="index" id="2">
-   <object id="1" type="Water" x="0" y="0" width="32" height="32"/>
+   <object id="1" class="Water" x="0" y="0" width="32" height="32"/>
   </objectgroup>
  </tile>
  <tile id="174">
   <objectgroup draworder="index" id="2">
-   <object id="1" type="Water" x="0" y="0" width="32" height="32"/>
+   <object id="1" class="Water" x="0" y="0" width="32" height="32"/>
   </objectgroup>
  </tile>
  <tile id="175">
   <objectgroup draworder="index" id="2">
-   <object id="1" type="Water" x="0" y="0" width="32" height="32"/>
+   <object id="1" class="Water" x="0" y="0" width="32" height="32"/>
   </objectgroup>
  </tile>
  <tile id="176">
   <objectgroup draworder="index" id="2">
-   <object id="1" type="Water" x="0" y="0" width="32" height="32"/>
+   <object id="1" class="Water" x="0" y="0" width="32" height="32"/>
   </objectgroup>
  </tile>
  <tile id="177">
   <objectgroup draworder="index" id="2">
-   <object id="1" type="Water" x="0" y="0" width="32" height="32"/>
+   <object id="1" class="Water" x="0" y="0" width="32" height="32"/>
   </objectgroup>
  </tile>
  <tile id="178">
   <objectgroup draworder="index" id="2">
-   <object id="1" type="Water" x="0" y="0" width="32" height="32"/>
+   <object id="1" class="Water" x="0" y="0" width="32" height="32"/>
   </objectgroup>
  </tile>
  <tile id="179">
   <objectgroup draworder="index" id="2">
-   <object id="1" type="Water" x="0" y="0" width="32" height="32"/>
+   <object id="1" class="Water" x="0" y="0" width="32" height="32"/>
   </objectgroup>
  </tile>
  <tile id="180">
   <objectgroup draworder="index" id="2">
-   <object id="1" type="Water" x="0" y="0" width="32" height="32"/>
+   <object id="1" class="Water" x="0" y="0" width="32" height="32"/>
   </objectgroup>
  </tile>
  <tile id="181">
   <objectgroup draworder="index" id="2">
-   <object id="1" type="Water" x="0" y="0" width="32" height="32"/>
+   <object id="1" class="Water" x="0" y="0" width="32" height="32"/>
   </objectgroup>
  </tile>
  <tile id="182">
   <objectgroup draworder="index" id="2">
-   <object id="1" type="Water" x="0" y="0" width="32" height="32"/>
+   <object id="1" class="Water" x="0" y="0" width="32" height="32"/>
   </objectgroup>
  </tile>
  <tile id="183">
   <objectgroup draworder="index" id="2">
-   <object id="1" type="Water" x="0" y="0" width="32" height="32"/>
+   <object id="1" class="Water" x="0" y="0" width="32" height="32"/>
   </objectgroup>
  </tile>
  <wangsets>
