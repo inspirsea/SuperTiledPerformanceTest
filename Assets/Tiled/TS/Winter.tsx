@@ -3,6 +3,9 @@
  <image source="../Tiles/Winter.png" width="256" height="736"/>
  <tile id="2" probability="50"/>
  <tile id="3">
+  <properties>
+   <property name="unity:layer" value="Ice"/>
+  </properties>
   <objectgroup draworder="index" id="2">
    <object id="1" class="Ice" x="0" y="0" width="32" height="32">
     <properties>
@@ -12,66 +15,103 @@
   </objectgroup>
  </tile>
  <tile id="4">
+  <properties>
+   <property name="unity:layer" value="Water"/>
+  </properties>
   <objectgroup draworder="index" id="2">
    <object id="1" class="Water" x="0" y="0" width="32" height="32"/>
   </objectgroup>
  </tile>
  <tile id="5">
   <objectgroup draworder="index" id="2">
-   <object id="2" class="Ice" x="18" y="0" width="14" height="32"/>
+   <object id="2" class="Ice" x="18" y="0" width="14" height="32">
+    <properties>
+     <property name="unity:layer" value="Ice"/>
+    </properties>
+   </object>
   </objectgroup>
  </tile>
  <tile id="6">
   <objectgroup draworder="index" id="2">
    <object id="1" class="Ice" x="15" y="32">
+    <properties>
+     <property name="unity:layer" value="Ice"/>
+    </properties>
     <polygon points="0,0 0,-9.47368 8.05263,-18 17,-18 17,0"/>
    </object>
   </objectgroup>
  </tile>
  <tile id="7">
   <objectgroup draworder="index" id="2">
-   <object id="1" class="Ice" x="-1" y="16" width="34" height="17"/>
+   <object id="1" class="Ice" x="0" y="16" width="32" height="16">
+    <properties>
+     <property name="unity:layer" value="Ice"/>
+    </properties>
+   </object>
   </objectgroup>
  </tile>
  <tile id="8">
   <objectgroup draworder="index" id="2">
-   <object id="1" class="Ice" x="-0.705882" y="15">
-    <polygon points="0.705882,0 9.17647,0 16.7059,8.5 16.7059,17 0.705882,17"/>
+   <object id="1" class="Ice" x="-1" y="16">
+    <properties>
+     <property name="unity:layer" value="Ice"/>
+    </properties>
+    <polygon points="1,3 16,16 1,16"/>
    </object>
   </objectgroup>
  </tile>
  <tile id="9">
   <objectgroup draworder="index" id="2">
-   <object id="1" class="Ice" x="0" y="0" width="15" height="32"/>
+   <object id="1" class="Ice" x="0" y="0" width="15" height="32">
+    <properties>
+     <property name="unity:layer" value="Ice"/>
+    </properties>
+   </object>
   </objectgroup>
  </tile>
  <tile id="10">
   <objectgroup draworder="index" id="2">
-   <object id="1" class="Ice" x="15.7778" y="-0.3">
-    <polygon points="0.222222,0.3 0.222222,9.9 8.22222,16.3 16.2222,16.3 16.2222,0.3"/>
+   <object id="1" class="Ice" x="15" y="1">
+    <properties>
+     <property name="unity:layer" value="Ice"/>
+    </properties>
+    <polygon points="2,-1 17,17 17,-1"/>
    </object>
   </objectgroup>
  </tile>
  <tile id="11">
   <objectgroup draworder="index" id="2">
-   <object id="1" class="Ice" x="0" y="0" width="32" height="15.875"/>
+   <object id="1" class="Ice" x="0" y="0" width="32" height="17">
+    <properties>
+     <property name="unity:layer" value="Ice"/>
+    </properties>
+   </object>
   </objectgroup>
  </tile>
  <tile id="12">
   <objectgroup draworder="index" id="2">
-   <object id="1" class="Ice" x="0.335526" y="16">
-    <polygon points="-0.335526,0 8.61184,0 16.6645,-7.11111 16.6645,-16 -0.335526,-16"/>
+   <object id="1" class="Ice" x="1" y="17">
+    <properties>
+     <property name="unity:layer" value="Ice"/>
+    </properties>
+    <polygon points="-1,-1 17,-17 -1,-17"/>
    </object>
   </objectgroup>
  </tile>
  <tile id="13">
   <objectgroup draworder="index" id="2">
-   <object id="1" class="Ice" x="15.3472" y="32.2162">
-    <polygon points="-0.236111,-0.216216 -0.236111,-10.5946 8.26389,-18.3784 18.6528,-18.3784 18.6528,-32.2162 -15.3472,-32.2162 -15.3472,-0.216216"/>
+   <object id="1" class="Ice" x="16" y="32">
+    <properties>
+     <property name="unity:layer" value="Ice"/>
+    </properties>
+    <polygon points="-1,0 16,-18 16,-32 -16,-32 -16,0"/>
    </object>
   </objectgroup>
  </tile>
  <tile id="14">
+  <properties>
+   <property name="unity:layer" value="Ice"/>
+  </properties>
   <objectgroup draworder="index" id="2">
    <object id="1" class="Ice" x="-0.457143" y="14.2222">
     <polygon points="0.457143,0 9.6,0 17.8286,8 17.8286,17.7778 32.4571,17.7778 32.4571,-14.2222 0.457143,-14.2222"/>
@@ -80,135 +120,202 @@
  </tile>
  <tile id="15">
   <objectgroup draworder="index" id="2">
-   <object id="1" class="Ice" x="14.7778" y="-0.540541">
-    <polygon points="0.333333,0.540541 0.333333,9.18919 8.33333,17.8378 17.2222,17.8378 17.2222,32.5405 -14.7778,32.5405 -14.7778,0.540541"/>
+   <object id="1" class="Ice" x="15" y="0">
+    <properties>
+     <property name="unity:layer" value="Ice"/>
+    </properties>
+    <polygon points="0,0 17,18 17,32 -15,32 -15,0"/>
    </object>
   </objectgroup>
  </tile>
  <tile id="16">
   <objectgroup draworder="index" id="2">
-   <object id="1" class="Ice" x="18.125" y="-2.5">
-    <polygon points="0,0 0.125,14.5 -8.5,21.375 -19.75,21.125 -19.875,36.375 15.625,36.375 15.5,0.375"/>
+   <object id="1" class="Ice" x="18" y="-1">
+    <properties>
+     <property name="unity:layer" value="Ice"/>
+    </properties>
+    <polygon points="0,1 -4,13 -18,20 -18,33 14,33 14,1"/>
    </object>
   </objectgroup>
  </tile>
  <tile id="17">
   <objectgroup draworder="index" id="2">
-   <object id="1" type="Water" x="17.75" y="33.375">
-    <polygon points="0,0 0.125,-10.25 9.125,-18.875 16.5,-19 16.5,0.125"/>
+   <object id="3" x="0" y="0">
+    <properties>
+     <property name="unity:layer" value="Ice"/>
+    </properties>
+    <polygon points="0,0 32,0 32,13 16,32 0,32"/>
    </object>
-   <object id="2" type="Ice" x="15.375" y="33.5">
-    <polygon points="0,0 -0.25,-12 10.25,-21.5 18.75,-21.125 18.375,-35.875 -17.5,-35.75 -17.5,0.125"/>
+   <object id="4" x="17" y="32">
+    <properties>
+     <property name="unity:layer" value="Water"/>
+    </properties>
+    <polygon points="0,0 15,-18 15,0"/>
    </object>
   </objectgroup>
  </tile>
  <tile id="18">
   <objectgroup draworder="index" id="2">
-   <object id="1" type="Water" x="-1.125" y="33.625">
-    <polygon points="0,0 34.375,-0.125 34.625,-17.875 -0.375,-17.375"/>
+   <object id="3" x="0" y="0" width="32" height="18">
+    <properties>
+     <property name="unity:layer" value="Ice"/>
+    </properties>
    </object>
-   <object id="2" type="Ice" x="-1.125" y="-2.125">
-    <polygon points="0,0 0,16.25 34,16.25 34.25,0.125"/>
+   <object id="5" x="0" y="18" width="32" height="14">
+    <properties>
+     <property name="unity:layer" value="Water"/>
+    </properties>
    </object>
   </objectgroup>
  </tile>
  <tile id="19">
   <objectgroup draworder="index" id="2">
-   <object id="1" type="Water" x="-2.375" y="15.125">
-    <polygon points="0,0 8.75,0.125 16.5,9.875 16.5,18 0,17.5"/>
+   <object id="3" x="0" y="0">
+    <properties>
+     <property name="unity:layer" value="Ice"/>
+    </properties>
+    <polygon points="0,0 32,0 32,32 16,32 0,13"/>
    </object>
-   <object id="2" type="Ice" x="15.625" y="33.375">
-    <polygon points="0,0 17.875,0 17.5,-35.375 -17,-34.875 -16.625,-19.625 -8.25,-19.5 -0.375,-8.375"/>
+   <object id="4" x="0" y="32">
+    <properties>
+     <property name="unity:layer" value="Water"/>
+    </properties>
+    <polygon points="0,0 0,-18 15,0"/>
    </object>
   </objectgroup>
  </tile>
  <tile id="20">
   <objectgroup draworder="index" id="2">
-   <object id="1" class="Water" x="17.25" y="-2.375">
-    <polygon points="0,0 0.5,36.125 16.875,36 16.125,-0.5"/>
+   <object id="3" x="0" y="0" width="22" height="32">
+    <properties>
+     <property name="unity:layer" value="Ice"/>
+    </properties>
    </object>
-   <object id="2" class="Ice" x="-1.375" y="-2.125">
-    <polygon points="0,0 0,35.875 17.625,35.5 17,-0.625"/>
+   <object id="5" x="22" y="0" width="10" height="32">
+    <properties>
+     <property name="unity:layer" value="Water"/>
+    </properties>
    </object>
   </objectgroup>
  </tile>
  <tile id="21">
   <objectgroup draworder="index" id="2">
-   <object id="1" type="Water" x="-1.5" y="-1.625">
-    <polygon points="0,0 0,34.625 15.375,34.75 15.75,-0.125"/>
+   <object id="3" x="0" y="0" width="12" height="32">
+    <properties>
+     <property name="unity:layer" value="Water"/>
+    </properties>
    </object>
-   <object id="2" type="Ice" x="33.125" y="-1.5">
-    <polygon points="0,0 0.375,34.125 -17.75,34.25 -17.875,-0.375"/>
+   <object id="5" x="12" y="0" width="20" height="32">
+    <properties>
+     <property name="unity:layer" value="Ice"/>
+    </properties>
    </object>
   </objectgroup>
  </tile>
  <tile id="22">
   <objectgroup draworder="index" id="2">
-   <object id="1" type="Water" x="14.5" y="-2.125">
-    <polygon points="0,0 0,8.625 8.625,17.125 19.25,17.125 18.875,0"/>
+   <object id="3" x="17" y="0">
+    <properties>
+     <property name="unity:layer" value="Ice"/>
+    </properties>
+    <polygon points="0,0 15,17 15,32 -17,32 -17,0"/>
    </object>
-   <object id="2" type="Ice" x="-1.5" y="-3">
-    <polygon points="0,0 0,36.125 35,36 35.25,19.125 23.625,19.5 14.625,10.125 14.75,0.75"/>
+   <object id="4" x="32" y="0">
+    <properties>
+     <property name="unity:layer" value="Water"/>
+    </properties>
+    <polygon points="0,0 0,15 -14,0"/>
    </object>
   </objectgroup>
  </tile>
  <tile id="23">
   <objectgroup draworder="index" id="2">
-   <object id="1" type="Water" x="-1.5" y="-1.75">
-    <polygon points="0,0 0.125,16.75 35.375,17 35.125,0"/>
+   <object id="3" x="0" y="0" width="32" height="14">
+    <properties>
+     <property name="unity:layer" value="Water"/>
+    </properties>
    </object>
-   <object id="2" type="Ice" x="-1.125" y="16.375">
-    <polygon points="0,0 -0.125,16.625 34.625,16.625 34.75,-0.125"/>
+   <object id="4" x="0" y="14" width="32" height="18">
+    <properties>
+     <property name="unity:layer" value="Ice"/>
+    </properties>
    </object>
   </objectgroup>
  </tile>
  <tile id="24">
   <objectgroup draworder="index" id="2">
-   <object id="1" type="Water" x="0" y="16">
-    <polygon points="0,0 9,0 16.5,-8.75 16.375,-18.75 -1.375,-18.75"/>
+   <object id="3" x="0" y="0">
+    <properties>
+     <property name="unity:layer" value="Water"/>
+    </properties>
+    <polygon points="0,0 15,0 10,11 0,15"/>
    </object>
-   <object id="2" type="Ice" x="-1.75" y="17.625">
-    <polygon points="0,0 11.375,0 20,-10.375 19.5,-20.375 35.625,-20.375 35.125,15.75 -1.5,15.5"/>
+   <object id="4" x="32" y="32">
+    <properties>
+     <property name="unity:layer" value="Ice"/>
+    </properties>
+    <polygon points="0,0 0,-32 -17,-32 -22,-21 -32,-17 -32,0"/>
    </object>
   </objectgroup>
  </tile>
  <tile id="25">
   <objectgroup draworder="index" id="2">
-   <object id="1" type="Water" x="14.125" y="33.5">
-    <polygon points="0,0 0.125,-11.625 9.875,-19.75 19.5,-19.625 19.25,-35.625 -15,-34.75 -15.125,-1"/>
+   <object id="3" x="12" y="32">
+    <properties>
+     <property name="unity:layer" value="Ice"/>
+    </properties>
+    <polygon points="0,0 0,-10 15,-18 20,-18 20,0"/>
    </object>
-   <object id="2" type="Ice" x="33.625" y="14.875">
-    <polygon points="0,0 -9.25,-0.125 -18.625,7.75 -18.375,17.75 -0.25,17.75"/>
+   <object id="4" x="0" y="32">
+    <properties>
+     <property name="unity:layer" value="Water"/>
+    </properties>
+    <polygon points="0,0 0,-32 32,-32 32,-18 27,-18 12,-10 12,0"/>
    </object>
   </objectgroup>
  </tile>
  <tile id="26">
   <objectgroup draworder="index" id="2">
-   <object id="1" type="Ice" x="-1.375" y="13.875">
-    <polygon points="0,0 10.125,0.125 18.5,9 18.875,19.625 -0.75,19"/>
+   <object id="3" x="0" y="13" width="17" height="19">
+    <properties>
+     <property name="unity:layer" value="Ice"/>
+    </properties>
    </object>
-   <object id="2" type="Water" x="-1.5" y="-1.5">
-    <polygon points="0,0 0,13.625 10.75,13.625 19.75,22.875 20.125,34.5 35.125,34.625 34.125,-0.5"/>
+   <object id="4" x="0" y="13">
+    <properties>
+     <property name="unity:layer" value="Water"/>
+    </properties>
+    <polygon points="0,0 0,-13 32,-13 32,19 17,19 17,0"/>
    </object>
   </objectgroup>
  </tile>
  <tile id="27">
   <objectgroup draworder="index" id="2">
-   <object id="1" type="Water" x="13.625" y="-1.875">
-    <polygon points="0,0 0,10.125 10.25,18.625 20.125,18.875 19.375,36.875 -16,36.375 -15.75,0.25"/>
+   <object id="3" x="15" y="0" width="17" height="15">
+    <properties>
+     <property name="unity:layer" value="Ice"/>
+    </properties>
    </object>
-   <object id="2" type="Ice" x="15.125" y="-2.125">
-    <polygon points="0,0 -0.125,9.125 9.25,17.75 18.5,17.625 18.375,-0.375"/>
+   <object id="4" x="0" y="0">
+    <properties>
+     <property name="unity:layer" value="Water"/>
+    </properties>
+    <polygon points="0,0 15,0 15,15 32,15 32,32 0,32"/>
    </object>
   </objectgroup>
  </tile>
  <tile id="28">
   <objectgroup draworder="index" id="2">
-   <object id="2" type="Water" x="-1.625" y="15.875">
-    <polygon points="0,0 11,0 20.875,-7.125 21.125,-18.5 34.75,-18.625 35,19.125 0.25,18.375"/>
+   <object id="4" x="0" y="0" width="18" height="18">
+    <properties>
+     <property name="unity:layer" value="Ice"/>
+    </properties>
    </object>
-   <object id="3" type="Ice" x="-1.5" y="-3.25">
-    <polygon points="0,0 0,17 10.625,16.75 19.625,10.25 19.625,0.125"/>
+   <object id="5" x="18" y="0">
+    <properties>
+     <property name="unity:layer" value="Water"/>
+    </properties>
+    <polygon points="0,0 14,0 14,32 -18,32 -18,18 0,18"/>
    </object>
   </objectgroup>
  </tile>
